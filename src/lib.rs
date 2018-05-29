@@ -3,7 +3,7 @@ extern crate ears;
 use std::collections::HashMap;
 
 use ears::{Sound, AudioController};
-use ears::State::{Playing, Stopped, Paused};
+use ears::State::{Stopped};
 
 
 pub struct DukeBox {
